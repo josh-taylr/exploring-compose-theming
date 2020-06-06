@@ -14,7 +14,7 @@ import androidx.ui.unit.dp
 fun ContainedButtonPreview() {
     AppTheme {
         Button(onClick = {}) {
-            Text(text = "Contained button")
+            Text(text = "Contained button", style = buttonStyle)
         }
     }
 }
@@ -24,7 +24,7 @@ fun ContainedButtonPreview() {
 fun OutlinedButtonPreview() {
     AppTheme {
         TextButton(onClick = {}) {
-            Text(text = "Outline button")
+            Text(text = "Outline button", style = buttonStyle)
         }
     }
 }
@@ -37,7 +37,7 @@ fun TextButtonPreview() {
             onClick = {},
             border = Border(1.dp, red500)
         ) {
-            Text(text = "Text button")
+            Text(text = "Text button", style = buttonStyle)
         }
     }
 }
