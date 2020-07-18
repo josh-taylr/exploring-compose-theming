@@ -46,7 +46,7 @@ inline fun OutlineButton(
 fun ContainedButtonPreview() {
     AppTheme {
         Button(onClick = {}) {
-            Text(text = "Contained button", style = buttonStyle)
+            Text(text = "Contained button")
         }
     }
 }
@@ -56,7 +56,7 @@ fun ContainedButtonPreview() {
 fun OutlinedButtonPreview() {
     AppTheme {
         TextButton(onClick = {}) {
-            Text(text = "Outline button", style = buttonStyle)
+            Text(text = "Outline button")
         }
     }
 }
@@ -66,7 +66,7 @@ fun OutlinedButtonPreview() {
 fun TextButtonPreview() {
     AppTheme {
         OutlineButton(onClick = {}) {
-            Text(text = "Text button", style = buttonStyle)
+            Text(text = "Text button")
         }
     }
 }

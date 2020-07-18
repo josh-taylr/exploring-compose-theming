@@ -37,8 +37,9 @@ fun AppTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() 
 
     MaterialTheme(
             colors = colors,
-            typography = typography,
+            typography = appTypography,
             shapes = shapes,
             content = content
     )
 }
+

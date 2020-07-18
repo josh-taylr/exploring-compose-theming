@@ -15,6 +15,11 @@ val red900 = Color(0xFF190078)
 
 val blueGrey500 = Color(0xFF607D8B)
 
+val background = white
+
+val light = Color(0xFFFAFAFA)
+val dark = Color(0xFFE8E8E8)
+
 val textHighEmphasis = black.copy(alpha = 0.87f)
 val textMediumEmphasis = black.copy(alpha = 0.60f)
 val textDisabled = black.copy(alpha = 0.38f)
