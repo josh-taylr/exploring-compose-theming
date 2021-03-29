@@ -1,14 +1,16 @@
 package dev.joshua.taylor.composebuttons.ui
 
-import androidx.ui.text.font.*
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import dev.joshua.taylor.composebuttons.R
 
-val playfairDisplay = fontFamily(
-        ResourceFont(R.font.playfair_display),
-        ResourceFont(R.font.playfair_display_bold, weight = FontWeight.Bold)
+val playfairDisplay = FontFamily(
+        Font(R.font.playfair_display),
+        Font(R.font.playfair_display_bold, weight = FontWeight.Bold)
 )
 
-val openSans = fontFamily(
-        ResourceFont(R.font.open_sans),
-        ResourceFont(R.font.open_sans_semibold, weight = FontWeight.SemiBold)
+val openSans = FontFamily(
+        Font(R.font.open_sans),
+        Font(R.font.open_sans_semibold, weight = FontWeight.SemiBold)
 )

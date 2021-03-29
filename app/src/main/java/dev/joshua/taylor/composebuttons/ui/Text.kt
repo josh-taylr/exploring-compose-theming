@@ -1,16 +1,9 @@
 package dev.joshua.taylor.composebuttons.ui
 
-import androidx.compose.Composable
-import androidx.ui.foundation.Text
-import androidx.ui.foundation.currentTextStyle
-import androidx.ui.layout.Column
-import androidx.ui.text.TextStyle
-import androidx.ui.text.font.FontListFontFamily
-import androidx.ui.text.font.FontWeight
-import androidx.ui.text.font.ResourceFont
-import androidx.ui.tooling.preview.Preview
-import androidx.ui.unit.TextUnit
-import dev.joshua.taylor.composebuttons.R
+import androidx.compose.foundation.layout.Column
+import androidx.compose.material.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Preview
 
 private const val PreviewFontScale = 0.25f
 
